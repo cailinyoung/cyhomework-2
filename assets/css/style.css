@@ -1,11 +1,33 @@
 body {
-    background-color: blueviolet;
-}
+    background-color: #debff5;
+    background-image: url("https://i.pinimg.com/originals/4e/c6/b3/4ec6b330bd7d6bb89cbbac0553336910.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
 .card {
-     margin: 0 auto; /* Added */
-     float: none; /* Added */
-     margin-bottom: 10px; /* Added */
+     margin: 0 auto;
+     float: none; 
+     margin-bottom: 10px; 
+     background-attachment: fixed;
 }
 
+.selfie {
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.contactCard {
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px; 
+    background-attachment: fixed;
+}
+
+.jumbotronContact {
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
