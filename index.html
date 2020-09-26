@@ -12,18 +12,27 @@
     <link 
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    href="css/style.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
     crossorigin="anonymous"/>
 
-    <link rel="stylesheet" href="assets/css/style.css" /
+    <link rel="stylesheet" href="assets/css/style.css">
 
-   <title> About Me </title>
+    <style>
+      body {
+        background-image: url("https://i.pinimg.com/originals/4e/c6/b3/4ec6b330bd7d6bb89cbbac0553336910.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
+
+  <title> About me </title> 
 
   </head>
 
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light" id = navbarStyle>
         <a class="navbar-brand" href="index.html">Cailin Young</a>
         <button 
         class="navbar-toggler" 
@@ -41,7 +50,7 @@
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
                 <a class="nav-link active" href="index.html">
-                    About<span class="sr-only">(current)</span></a>
+                    Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -53,29 +62,26 @@
               </li>
             </ul>
           </div>
-    </nav>
-    
-    <main roll = "main" class = "container">
-        <div class="container mt-5 float-left">
-            <div class="row">
-              <div class="col-sm-12 col-md-10 col-lg-8">
-                <div class="">
-                  <h1 class="display-4 text-dark">About Me</h1>
-                  <hr class="my-2" />
-                  <img
-                    src=
-                    alt=
-                    class=
-                  />
-                  <p>
-                   
-        
-                    
-                  </p>
-                </div>
-              </div>
-            </div>
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">About me</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
           </div>
+        </div>
+
+        <div> 
+
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
     </main>
   
 
