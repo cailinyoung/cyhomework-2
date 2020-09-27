@@ -4,30 +4,51 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
   }
 
-.card {
+.aboutMeCard {
      margin: 0 auto;
      float: none; 
      margin-bottom: 10px; 
-     background-attachment: fixed;
+    text-align: center;
 }
 
-.selfie {
-    float: left;
-    width: 200px;
-    height: auto;
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
 }
 
 .contactCard {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    text-align: center;
+}
+
+.jumbotron{
+    background-size: cover;
+    padding: 30px 30px 30px 30px;
+}
+
+footer {
+    position: fixed;
+    padding: 10px 10px 10px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #debff5;
+    text-align: center; 
+    color: white; 
+}
+
+.socialC {
     margin: 0 auto;
     float: none; 
     margin-bottom: 10px; 
-    background-attachment: fixed;
-}
-
-.jumbotronContact {
-    background-size: cover;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    text-align: center;
+    padding: 20px;
 }
